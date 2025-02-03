@@ -1,0 +1,6 @@
+.venv
+.env.local
+.envrc
+.github
+.gitignore
+Dockerfile
