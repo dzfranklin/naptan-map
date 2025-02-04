@@ -20,8 +20,8 @@ from bs4 import BeautifulSoup as Soup
 
 naptan_api_csv_url = "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv"
 
-attribution = "<a href=\"https://findtransportdata.dft.gov.uk/\" target=\"_blank\">DfT</a>" + \
-              " via <a href=\"https://github.com/dzfranklin/naptan-map\">naptan-map</a>"
+attribution = '<a href="https://findtransportdata.dft.gov.uk/" target="_blank">DfT</a>' + \
+              ' via <a href="https://github.com/dzfranklin/naptan-map" target="_blank">naptan-map</a>'
 
 bunny_storage_key = os.getenv("BUNNY_STORAGE_KEY")
 if bunny_storage_key is None:
